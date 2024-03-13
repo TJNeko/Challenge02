@@ -15,18 +15,23 @@ header{
 
 h1{
     margin: 0;
+    color: rgb(126, 135, 255);
+    text-decoration: wavy;
 }
 
 nav{
     text-align: center;
     font-size: x-large;
     position: relative;
-    bottom: 290px;
+    bottom: 270px;
     text-align: right;
     display: flex;
     justify-content: space-between;
     padding-left: 1400px;
     padding-right: 30px;
+}
+html{
+    scroll-behavior: smooth;
 }
 
 #mainImage{
@@ -45,24 +50,29 @@ footer{
     padding-right: 500px;
 }
 
-p:hover{
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-.About{
+.AboutAndWork{
     font-size: x-large;
 }
 
 h2{
-    color: black;
+    color: rgb(126, 135, 255);
     font-size: 50px;
     text-decoration: underline;
 }
 
 h3{
-    color: black;
+    color: rgb(126, 135, 255);
     font-size: 50px;
+    text-decoration: underline;
+}
+
+a{
+    color: rgb(252, 0, 218);
+}
+
+h4{
+    font-size: 50px;
+    color: rgb(126, 135, 255);
     text-decoration: underline;
 }
 
